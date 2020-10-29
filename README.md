@@ -13,3 +13,4 @@ Dentro do seu Object Window agora tem uma função chamada **"timerCount"**
     window.timerCount() // {message: "Expired"}
     window.timerCount('') // {message: "Expired"}
     window.timerCount('2020-10-29T18:00:00') // {dias: 0, horas: 5, minutos: 44, segundos: 4}
+    setInterval(() => { window.timerCount('2020-10-29T18:00:00') // {dias: 0, horas: 5, minutos: 44, segundos: 4} }, 1000)
